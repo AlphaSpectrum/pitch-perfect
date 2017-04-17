@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E737D63D1EA503F6009A39E9 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E737D63C1EA503F6009A39E9 /* PlaySoundsViewController.swift */; };
+		E737D63F1EA51677009A39E9 /* PlaySoundsViewControllerAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E737D63E1EA51677009A39E9 /* PlaySoundsViewControllerAudio.swift */; };
 		E7B175861EA2DAA00014C169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B175851EA2DAA00014C169 /* AppDelegate.swift */; };
-		E7B175881EA2DAA00014C169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B175871EA2DAA00014C169 /* ViewController.swift */; };
+		E7B175881EA2DAA00014C169 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B175871EA2DAA00014C169 /* RecordAudioViewController.swift */; };
 		E7B1758B1EA2DAA00014C169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B175891EA2DAA00014C169 /* Main.storyboard */; };
 		E7B1758D1EA2DAA00014C169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B1758C1EA2DAA00014C169 /* Assets.xcassets */; };
 		E7B175901EA2DAA00014C169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B1758E1EA2DAA00014C169 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7B175821EA2DAA00014C169 /* Voice Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E737D63C1EA503F6009A39E9 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		E737D63E1EA51677009A39E9 /* PlaySoundsViewControllerAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySoundsViewControllerAudio.swift; path = ../PlaySoundsViewControllerAudio.swift; sourceTree = "<group>"; };
+		E7B175821EA2DAA00014C169 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B175851EA2DAA00014C169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7B175871EA2DAA00014C169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7B175871EA2DAA00014C169 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
 		E7B1758A1EA2DAA00014C169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7B1758C1EA2DAA00014C169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B1758F1EA2DAA00014C169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +50,7 @@
 		E7B175831EA2DAA00014C169 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7B175821EA2DAA00014C169 /* Voice Changer.app */,
+				E7B175821EA2DAA00014C169 /* Pitch Perfect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E7B175851EA2DAA00014C169 /* AppDelegate.swift */,
-				E7B175871EA2DAA00014C169 /* ViewController.swift */,
+				E7B175871EA2DAA00014C169 /* RecordAudioViewController.swift */,
+				E737D63C1EA503F6009A39E9 /* PlaySoundsViewController.swift */,
 				E7B175891EA2DAA00014C169 /* Main.storyboard */,
+				E737D63E1EA51677009A39E9 /* PlaySoundsViewControllerAudio.swift */,
 				E7B1758C1EA2DAA00014C169 /* Assets.xcassets */,
 				E7B1758E1EA2DAA00014C169 /* LaunchScreen.storyboard */,
 				E7B175911EA2DAA00014C169 /* Info.plist */,
@@ -67,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7B175811EA2DAA00014C169 /* Voice Changer */ = {
+		E7B175811EA2DAA00014C169 /* Pitch Perfect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7B175941EA2DAA00014C169 /* Build configuration list for PBXNativeTarget "Voice Changer" */;
+			buildConfigurationList = E7B175941EA2DAA00014C169 /* Build configuration list for PBXNativeTarget "Pitch Perfect" */;
 			buildPhases = (
 				E7B1757E1EA2DAA00014C169 /* Sources */,
 				E7B1757F1EA2DAA00014C169 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Voice Changer";
+			name = "Pitch Perfect";
 			productName = "Voice Changer";
-			productReference = E7B175821EA2DAA00014C169 /* Voice Changer.app */;
+			productReference = E7B175821EA2DAA00014C169 /* Pitch Perfect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E7B1757D1EA2DAA00014C169 /* Build configuration list for PBXProject "Voice Changer" */;
+			buildConfigurationList = E7B1757D1EA2DAA00014C169 /* Build configuration list for PBXProject "Pitch Perfect" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7B175811EA2DAA00014C169 /* Voice Changer */,
+				E7B175811EA2DAA00014C169 /* Pitch Perfect */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B175881EA2DAA00014C169 /* ViewController.swift in Sources */,
+				E7B175881EA2DAA00014C169 /* RecordAudioViewController.swift in Sources */,
+				E737D63F1EA51677009A39E9 /* PlaySoundsViewControllerAudio.swift in Sources */,
+				E737D63D1EA503F6009A39E9 /* PlaySoundsViewController.swift in Sources */,
 				E7B175861EA2DAA00014C169 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7B1757D1EA2DAA00014C169 /* Build configuration list for PBXProject "Voice Changer" */ = {
+		E7B1757D1EA2DAA00014C169 /* Build configuration list for PBXProject "Pitch Perfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7B175921EA2DAA00014C169 /* Debug */,
@@ -297,13 +305,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7B175941EA2DAA00014C169 /* Build configuration list for PBXNativeTarget "Voice Changer" */ = {
+		E7B175941EA2DAA00014C169 /* Build configuration list for PBXNativeTarget "Pitch Perfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7B175951EA2DAA00014C169 /* Debug */,
 				E7B175961EA2DAA00014C169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
