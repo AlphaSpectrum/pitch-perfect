@@ -4,6 +4,7 @@
 //
 //  Copyright © 2016 Udacity. All rights reserved.
 //
+//  This came from an Udacity Course
 
 import UIKit
 import AVFoundation
